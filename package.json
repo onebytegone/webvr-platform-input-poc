@@ -1,0 +1,17 @@
+{
+  "name": "webvr-platform-input-poc",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onebytegone/webvr-platform-input-poc.git"
+  },
+  "author": "Ethan Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onebytegone/webvr-platform-input-poc/issues"
+  },
+  "homepage": "https://github.com/onebytegone/webvr-platform-input-poc#readme",
+  "engines": {
+    "node": "12.x"
+  }
+}
