@@ -1,20 +1,13 @@
 <template>
-   <div>
-      <Welcome></Welcome>
-   </div>
+   <router-view></router-view>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import Welcome from './views/Welcome.vue';
 
 export default defineComponent({
 
    name: 'App',
-
-   components: {
-      Welcome,
-   },
 
 });
 </script>

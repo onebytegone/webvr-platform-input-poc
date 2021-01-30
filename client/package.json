@@ -18,7 +18,8 @@
   "homepage": "https://github.com/onebytegone/webvr-platform-input-poc#readme",
   "dependencies": {
     "core-js": "3.8.3",
-    "vue": "3.0.5"
+    "vue": "3.0.5",
+    "vue-router": "4.0.3"
   },
   "devDependencies": {
     "@silvermine/eslint-config": "3.0.0-rc.0",

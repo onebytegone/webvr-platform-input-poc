@@ -1,6 +1,5 @@
 <template>
-   <h1>Welcome!</h1>
-   <router-link to="/game/c0ffee">Start</router-link>
+   <h1>404!</h1>
 </template>
 
 <script lang="ts">
@@ -8,7 +7,7 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
 
-   name: 'Welcome',
+   name: 'NotFound',
 
 });
 </script>
