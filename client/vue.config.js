@@ -1,6 +1,6 @@
 module.exports = {
    lintOnSave: false,
-   publicPath: '/',
+   publicPath: '.',
    // see https://github.com/vuejs/vue-cli/issues/5610
    chainWebpack: (config) => {
       config.module
