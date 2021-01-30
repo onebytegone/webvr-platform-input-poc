@@ -1,6 +1,8 @@
 <template>
-   <h1>Welcome!</h1>
-   <router-link to="/game/c0ffee">Start</router-link>
+   <div class="view">
+      <h1>Welcome!</h1>
+      <router-link to="/game/c0ffee">Start</router-link>
+   </div>
 </template>
 
 <script lang="ts">
@@ -14,4 +16,11 @@ export default defineComponent({
 </script>
 
 <style scoped lang="scss">
+.view {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
 </style>

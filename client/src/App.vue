@@ -21,12 +21,7 @@ html, body {
    font-family: Avenir, Helvetica, Arial, sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
    color: #263238;
    font-size: 2em;
-   min-height: 100vh;
 }
 </style>
