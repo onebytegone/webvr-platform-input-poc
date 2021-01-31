@@ -15,4 +15,7 @@ module.exports = {
             return options;
          });
    },
+   devServer: {
+      https: true,
+   },
 };
