@@ -18,6 +18,7 @@
   "homepage": "https://github.com/onebytegone/webvr-platform-input-poc#readme",
   "dependencies": {
     "aframe": "1.1.0",
+    "aframe-extras": "6.1.1",
     "aframe-teleport-controls": "0.3.1",
     "aframe-typescript-toolkit": "0.0.20",
     "core-js": "3.8.3",

@@ -15,11 +15,12 @@
             height="40"
             material='src: #texture-floor; repeat: 10, 10'></a-plane>
          <a-sky color="#8ddfff"></a-sky>
-         <a-entity id="cameraRig" thumbstick-dpad>
+         <a-entity id="cameraRig"
+            movement-controls="controls: keyboard, touch"
+            thumbstick-dpad>
             <a-entity id="head"
                camera
                position="0 1.6 0"
-               wasd-controls
                look-controls="pointerLockEnabled: true"></a-entity>
             <a-entity id="leftHand"
                thumbstick-dpad
@@ -38,6 +39,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import 'aframe';
+import 'aframe-extras';
 import 'aframe-teleport-controls';
 import '../aframe/components/ThumbstickDirectionalPad';
 import '../aframe/components/SnapTurn';
