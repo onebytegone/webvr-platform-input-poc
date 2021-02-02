@@ -13,25 +13,22 @@
             rotation="-90 0 0"
             width="40"
             height="40"
-            material='src: #texture-floor; repeat: 10, 10'
-            >
-         </a-plane>
+            material='src: #texture-floor; repeat: 10, 10'></a-plane>
          <a-sky color="#8ddfff"></a-sky>
-         <a-entity id="cameraRig"
-               thumbstick-dpad>
-            <a-entity id="head" camera position="0 1.6 0" wasd-controls look-controls="pointerLockEnabled: true"></a-entity>
+         <a-entity id="cameraRig" thumbstick-dpad>
+            <a-entity id="head"
+               camera
+               position="0 1.6 0"
+               wasd-controls
+               look-controls="pointerLockEnabled: true"></a-entity>
             <a-entity id="leftHand"
                thumbstick-dpad
                snap-turn="cameraRig: #cameraRig"
                teleport-controls="cameraRig: #cameraRig; teleportOrigin: #head; startEvents: thumbsticknorth; endEvents: thumbstickcenter;"
-               hand-controls="hand: left; handModelStyle: highPoly; color: #dedede"
-               >
-            </a-entity>
-            <a-entity id="rightHand" input-listen
+               hand-controls="hand: left; handModelStyle: highPoly; color: #dedede"></a-entity>
+            <a-entity id="rightHand"
                teleport-controls="cameraRig: #cameraRig; teleportOrigin: #head; button: trigger; startEvents: thumbsticknorth; endEvents: thumbstickcenter;"
-               hand-controls="hand: right; handModelStyle: highPoly; color: #dedede"
-               >
-            </a-entity>
+               hand-controls="hand: right; handModelStyle: highPoly; color: #dedede"></a-entity>
          </a-entity>
       </a-scene>
    </div>
