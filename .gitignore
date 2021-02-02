@@ -49,3 +49,6 @@ dist
 
 # NYC
 .nyc_output
+
+# Blender files
+*.blend1
